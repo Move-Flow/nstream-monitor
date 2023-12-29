@@ -8,7 +8,7 @@ import retry from 'async-retry';
 import fetch from "node-fetch";
 
 const MIN_DEPOSIT_BALANCE = "10000"; // 0.0001 APT(decimals=8)
-const MONITOR_INTERVAL = 2 * 60 * 60 * 1000; // 2H, configurable
+const MONITOR_INTERVAL = 3 * 60 * 60 * 1000; // 3H, configurable
 const MAX_RETRY_ATTEMPTS = 18;
 const MIN_TIMEOUT = 10000;
 const MAX_TIMEOUT = 100000;
